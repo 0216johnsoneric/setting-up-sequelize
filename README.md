@@ -4,7 +4,7 @@
 1) Create empty file structure (README.md,.gitignore, server.js, /db folder with schema.sql and seeds.sql, /routes folder with api-routes.js and html-routes.js, views or public folder with handlebars/html, css/css.styles. js/app.js)
 ## Step Two: Set up npm packages
 2) Run npm init or npm init -y, Install the following packages:
--npm i mysql, npm i mysql2, npm i express, npm i express-handlebars, npm i sequelize.
+npm i mysql, npm i mysql2, npm i express, npm i express-handlebars, npm i sequelize.
 Run npm i
 ## Step Three: Set up Config and Models folder with sequelize file generator
 Run sequelize init:models & sequelize init:config in terminal (make sure to run npm install -g sequelize sequelize-cli to install sequelize globally)
