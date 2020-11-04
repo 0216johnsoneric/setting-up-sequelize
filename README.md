@@ -8,11 +8,12 @@
 Run npm i
 ## Step Three: Set up Config and Models folder with sequelize file generator
 Run sequelize init:models & sequelize init:config in terminal (make sure to run npm install -g sequelize sequelize-cli to install sequelize globally)
-### Step Three A) : Set up config.json file
+### Step 3 A) : Set up config.json file
 in the generated /config folder open config.json and modify the development object's "database","username" and "password" values to match your MYSQL database.
 ### Step 3 B) : Set up models.js files for database objects
 Navigate to the models folder and create a new file that matches the main object of your project ( example todolist.js.) Create a model file with columns for "text" (DataTypes.STRING), and "complete" (DataTypes.BOOLEAN).
 Example code:
+
 module.exports = function(sequelize, DataTypes) {
   var Todo = sequelize.define("Todo", {
     text: DataTypes.STRING,
