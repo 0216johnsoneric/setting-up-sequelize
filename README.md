@@ -21,6 +21,7 @@ module.exports = function(sequelize, DataTypes) {
   });
   return Todo;
 };
+
 Set up a new model file for each object in database.
 
 ## Step Four: 
